@@ -251,14 +251,24 @@ h2 {
   background: #edf2f2;
 }
 
-.website .social-icon {
+.app .social-icon {
+  overflow: hidden;
+  background: #eaf7f4;
+}
+
+.landing .social-icon {
   background: transparent;
 }
 
-.website-logo-icon {
+.app-logo-icon,
+.landing-logo-icon {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.app-logo-icon {
+  mix-blend-mode: multiply;
 }
 
 .social-copy {
