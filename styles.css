@@ -252,8 +252,13 @@ h2 {
 }
 
 .website .social-icon {
-  color: #259c99;
-  background: #eaf7f4;
+  background: transparent;
+}
+
+.website-logo-icon {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .social-copy {
